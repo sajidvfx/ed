@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Learning</title>
+     <script>
+    function checkPassword() {
+        var password = prompt("Enter Password:");
+        if (password !== "kingb") {
+            alert("Incorrect Password!");
+            window.location.href = "about:blank"; // Redirects user
+        }
+    }
+    checkPassword();
+</script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #FFD700;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #000;
+        }
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .button {
+            background: #000;
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        .button:hover {
+            background: #FFD700;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Start BEC & BEE📚</h1>
+        <div class="button-container">
+             
+            <h3>module-1</h3>
+            <a href="https://www.youtube.com/watch?v=F-ZdIRwupdM" class="button">1</a>
+            <a href="https://www.youtube.com/watch?v=QJwVb9EaK2U" class="button">2</a>
+            <a href="https://www.youtube.com/watch?v=Vt9r0AcmdOE" class="button">3</a>
+            
+            <h3>module-2</h3>
+            <a href="https://www.youtube.com/watch?v=VkkOtcJByug" class="button">1</a>
+            <a href="https://www.youtube.com/watch?v=qkEZo6DO-jg" class="button">2</a>
+
+        </div>
+    </div>
+</body>
+</html>
